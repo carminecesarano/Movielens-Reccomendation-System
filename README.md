@@ -12,3 +12,32 @@ The proposed architecture makes use of collaborative filtering, content-based an
 </div>
 <br />
 
+- Collaborative filtering: using ALS, the list of all films still not seen is provided, in order of user compatibility.
+- Content-based filtering: filter the previous results based on the top 5 genres preferred by the user.
+- Popularity-based filtering: filter films seen less than 30 times from previous results.
+
+In addition to the results of the recommendations, some interesting analytics on the dataset are shown via dashboards.
+<div align="center">
+<img src="img/dash1.png" >
+</div>
+<br />
+<div align="center">
+<img src="img/dash2.png" >
+</div>
+<br />
+<div align="center">
+<img src="img/dash3.png" >
+</div>
+<br />
+<div align="center">
+<img src="img/dash4.png" >
+</div>
+<br />
+<div align="center">
+<img src="img/dash5.png" >
+</div>
+<br />
+<div align="center">
+<img src="img/dash6.png" >
+</div>
+<br />
